@@ -17,7 +17,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",           # React dev server
-        "https://ai-companion-app-kohl.vercel.app/",   # Vercel frontend URL
+        "https://ai-companion-app-kohl.vercel.app",   # Vercel frontend URL
     ],
     allow_credentials=True,
     allow_methods=["*"],       
