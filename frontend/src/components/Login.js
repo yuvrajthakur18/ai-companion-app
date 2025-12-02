@@ -44,7 +44,7 @@ const Login = ({ onLogin }) => {
           {/* Left: Image Section */}
           <div className="md:w-1/2 flex-shrink-0 hidden md:flex items-center justify-center">
             <img
-              className="h-24 w-1/3 object-cover rounded-lg shadow-lg"
+              className="h-48 w-full object-cover rounded-lg shadow-lg"
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
               alt="AI Companion Illustration"
             />
@@ -52,7 +52,7 @@ const Login = ({ onLogin }) => {
 
           {/* Right: Form Section */}
           <div className="md:w-1/2 flex flex-col justify-center">
-            <div className="max-w-md mx-auto">
+            <div className="w-full mx-auto">
               <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
                 {isRegister ? "Join the AI Companion Hub" : "Welcome Back"}
               </h2>

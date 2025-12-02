@@ -3,8 +3,8 @@ from typing import Optional
 from datetime import datetime
 
 class User(BaseModel):
-    username: str = Field(..., min_length=3)
-    password: str = Field(..., min_length=6)  # Hashed in practice
+    username: str = Field(..., min_length=1)
+    password: str = Field(..., min_length=1)  
 
 class UserInDB(User):
     hashed_password: str
