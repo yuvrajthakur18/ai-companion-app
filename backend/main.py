@@ -17,9 +17,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",           # React dev server
-        "https://your-frontend.up.railway.app",   # Change to your actual frontend URL
-        "https://*.railway.app",          # Or use wildcard if multiple
-        "https://yourdomain.com",          # Your future custom domain
+        "https://ai-companion-app-kohl.vercel.app/",   # Vercel frontend URL
     ],
     allow_credentials=True,
     allow_methods=["*"],       

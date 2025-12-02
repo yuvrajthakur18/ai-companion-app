@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000"; // FastAPI default port
+const API_URL = "https://ai-companion-app-pown.onrender.com"; // FastAPI render port
 
 const api = axios.create({
   baseURL: API_URL,
